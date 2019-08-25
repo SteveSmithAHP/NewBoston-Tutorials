@@ -25,10 +25,10 @@ Git Tutorial – 5 – Adding Files and the Commit Log
 
 	How to add notes in the vim editor	
 	
-		Press I to enter insert mode
+		Press 'i' to enter insert mode
 		Type in your commit message
-		Press Esc to exit insert mode
-		Type in :wq
+		Press 'Esc' to exit insert mode
+		Type in ':wq'
 
 Git Tutorial – 6 – Git Workflow
 
@@ -46,7 +46,7 @@ Git Tutorial – 7 – How to Edit Files
 			Or
 		1. Git add Filename.ext
 			and
-		2. Git commit -m “”
+		2. Git commit -m “comments”
 
 Git Tutorial – 8 – Viewing the Changes	
 
@@ -56,18 +56,22 @@ Git Tutorial – 8 – Viewing the Changes
 
 Git Tutorial – 9 – Comparing the Staging Area with the Repository
 
-	Git diff only compares repo vs. working.  It does not compare repo vs staging
-	Git diff –staged compares repo vs staging
+	Git diff only 
+		compares repo vs. working.  
+		It does not compare repo vs staging
+
+	Git diff –staged 
+		compares repo vs staging
 
 Git Tutorial – 10 – How to Delete Files
 
-	To delete a file:	1. Rm Third.txt
-	To commit the delete:	2. Git commit -m “”
+	To delete a file:	1. Rm filename.ext
+	To commit the delete:	2. Git commit -m “comments”
 
 Git Tutorial – 11 – How to Move and Rename Files	
 
-	$ git mv file.txt file2.txt
-	$ git mv file.txt dir/file2.txt
+	$ git mv file.txt filename.ext
+	$ git mv file.txt dir/filename.ext
 	$ git commit -m “rename file”
 
 Git Tutorial – 12 – Working with an Actual Website
@@ -76,7 +80,7 @@ Git Tutorial – 12 – Working with an Actual Website
 
 Git Tutorial – 13 – How to Commit Directly to the Repository
 
-	$ git commit -am “”
+	$ git commit -am “comments”
 
 Git Tutorial – 14 – Checkout this video (Git it?)
 
@@ -88,8 +92,9 @@ Git Tutorial – 15 – Unstage Files
 
 Git Tutorial – 16 – Getting Old Versions from Repository
 
-	First > second > third > second (revert to second without deleting third)	git log filename.ext
-	git checkout ref -- filename.ext
+	First > second > third > second (revert to second without deleting third)	
+		1. git log filename.ext
+		2. git checkout ref -- filename.ext
 
 Git Tutorial – 17 – GitHub
 
@@ -114,8 +119,8 @@ Git Tutorial – 21 – Branches
 
 Git Tutorial – 22 – GitHub Watch star and Fork
 
-	GitHub – Raw	Use Raw when copying content
-	GitHub – Blame	View of author of each line of file
+	GitHub – Raw		Use Raw when copying content
+	GitHub – Blame		View of author of each line of file
 	GitHub – History	Each commit and change for a file
 
 	Watch	Follow a project with notifications of changes
@@ -131,5 +136,3 @@ Git Tutorial – 24 – GitHub Wiki
 	https://www.youtube.com/watch?v=4B0XNThjO0E&list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx&index=24
 
 Git Tutorial – 25 – GitHub Organizations and Teams
-
-
