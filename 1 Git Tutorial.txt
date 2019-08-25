@@ -131,7 +131,7 @@ Git Tutorial – 23 – GitHub Issues and Labels
 
 	GitHub - Issues tab	Assign a task to be completed
 
-Git Tutorial – 24 – HitHub Wiki
+Git Tutorial – 24 – GitHub Wiki
 	
 	https://www.youtube.com/watch?v=4B0XNThjO0E&list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx&index=24
 
