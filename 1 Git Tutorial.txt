@@ -1,0 +1,140 @@
+Git Tutorials – The New Boston
+
+Git Tutorial – 1 – How to Download and Install Git
+
+
+Git Tutorial – 2 – Config Our Username and Email
+
+	Clear the screen	$ clear
+	Get help		$ help
+	Get help on a command	$ git help commit
+
+Git Tutorial – 3 – Creating our first Repository
+
+	$ git init
+
+Git Tutorial – 4 – Commit
+
+
+Git Tutorial – 5 – Adding Files and the Commit Log
+
+How to view all commits	
+	
+	$ git log
+	$ git log --author="Steven Smith"
+
+How to add notes in the vim editor	
+	
+	Press I to enter insert mode
+	Type in your commit message
+	Press Esc to exit insert mode
+	Type in :wq
+
+Git Tutorial – 6 – Git Workflow
+
+Three states of documents	
+	
+	1. Working copy
+	2. Staging area
+	3. Repository
+
+Git Tutorial – 7 – How to Edit Files
+
+After changing a file	
+
+	1. Git add .
+		Or
+	1. Git add Filename.ext
+		and
+	2. Git commit -m “”
+
+Git Tutorial – 8 – Viewing the Changes	
+
+How do you see what changes were made	
+
+	git diff
+	Blah
+
+Git Tutorial – 9 – Comparing the Staging Area with the Repository
+
+	Git diff only compares repo vs. working.  It does not compare repo vs staging
+	Git diff –staged compares repo vs staging
+
+Git Tutorial – 10 – How to Delete Files
+
+	To delete a file:	1. Rm Third.txt
+	To commit the delete:	2. Git commit -m “”
+
+Git Tutorial – 11 – How to Move and Rename Files	
+
+	$ git mv file.txt file2.txt
+	$ git mv file.txt dir/file2.txt
+	$ git commit -m “rename file”
+
+Git Tutorial – 12 – Working with an Actual Website
+
+	Link	
+
+ 
+Git Tutorial – 13 – How to Commit Directly to the Repository
+
+	$ git commit -am “”
+
+Git Tutorial – 14 – Checkout this video (Git it?)
+
+	Restore files from the repository	$ git checkout -- filename.ext
+
+Git Tutorial – 15 – Unstage Files
+
+	Unstage a staged file	$ git reset HEAD filename.ext
+
+Git Tutorial – 16 – Getting Old Versions from Repository
+
+	First > second > third > second (revert to second without deleting third)	git log filename.ext
+	git checkout ref -- filename.ext
+
+Git Tutorial – 17 – GitHub
+
+
+
+Git Tutorial – 18 – Pushing to GitHub Repository
+
+	To publish a file	
+		1. Create a repo on GitHub
+		2. commit the file on local repo
+Set up a remote	3. Git remote add githubrepo https://...
+		4. git push -u githubrepo master
+
+Git Tutorial – 19 – gitignore and GitHub Desktop
+
+	Add repo on GitHub
+	Using GitHub desktop, clone the repo
+	Create a gitignore file.
+
+Git Tutorial – 20 – Committing Changes to GitHub
+
+
+Git Tutorial – 21 – Branches
+
+
+Git Tutorial – 22 – GitHub Watch star and Fork
+
+	GitHub – Raw	Use Raw when copying content
+	GitHub – Blame	View of author of each line of file
+	GitHub – History	Each commit and change for a file
+
+	Watch	Follow a project with notifications of changes
+	Star	Book mark a project
+	Fork	Make a copy of a project
+
+Git Tutorial – 23 – GitHub Issues and Labels
+
+	GitHub - Issues tab	Assign a task to be completed
+
+Git Tutorial – 24 – HitHub Wiki
+	
+	https://www.youtube.com/watch?v=4B0XNThjO0E&list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx&index=24
+
+Git Tutorial – 25 – GitHub Organizations and Teams
+
+
