@@ -1,7 +1,8 @@
 Git Tutorials – The New Boston
+	
+	https://www.youtube.com/watch?v=cEGIFZDyszA&list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx
 
 Git Tutorial – 1 – How to Download and Install Git
-
 
 Git Tutorial – 2 – Config Our Username and Email
 
@@ -14,7 +15,6 @@ Git Tutorial – 3 – Creating our first Repository
 	$ git init
 
 Git Tutorial – 4 – Commit
-
 
 Git Tutorial – 5 – Adding Files and the Commit Log
 
@@ -74,7 +74,6 @@ Git Tutorial – 12 – Working with an Actual Website
 
 	Link	
 
- 
 Git Tutorial – 13 – How to Commit Directly to the Repository
 
 	$ git commit -am “”
@@ -94,8 +93,6 @@ Git Tutorial – 16 – Getting Old Versions from Repository
 
 Git Tutorial – 17 – GitHub
 
-
-
 Git Tutorial – 18 – Pushing to GitHub Repository
 
 	To publish a file	
@@ -113,9 +110,7 @@ Git Tutorial – 19 – gitignore and GitHub Desktop
 
 Git Tutorial – 20 – Committing Changes to GitHub
 
-
 Git Tutorial – 21 – Branches
-
 
 Git Tutorial – 22 – GitHub Watch star and Fork
 
