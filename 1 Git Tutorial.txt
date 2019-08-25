@@ -18,42 +18,41 @@ Git Tutorial – 4 – Commit
 
 Git Tutorial – 5 – Adding Files and the Commit Log
 
-How to view all commits	
+	How to view all commits	
 	
-	$ git log
-	$ git log --author="Steven Smith"
+		$ git log
+		$ git log --author="Steven Smith"
 
-How to add notes in the vim editor	
+	How to add notes in the vim editor	
 	
-	Press I to enter insert mode
-	Type in your commit message
-	Press Esc to exit insert mode
-	Type in :wq
+		Press I to enter insert mode
+		Type in your commit message
+		Press Esc to exit insert mode
+		Type in :wq
 
 Git Tutorial – 6 – Git Workflow
 
-Three states of documents	
+	Three states of documents	
 	
-	1. Working copy
-	2. Staging area
-	3. Repository
+		1. Working copy
+		2. Staging area
+		3. Repository
 
 Git Tutorial – 7 – How to Edit Files
 
-After changing a file	
+	After changing a file	
 
-	1. Git add .
-		Or
-	1. Git add Filename.ext
-		and
-	2. Git commit -m “”
+		1. Git add .
+			Or
+		1. Git add Filename.ext
+			and
+		2. Git commit -m “”
 
 Git Tutorial – 8 – Viewing the Changes	
 
-How do you see what changes were made	
+	How do you see what changes were made	
 
-	git diff
-	Blah
+		git diff
 
 Git Tutorial – 9 – Comparing the Staging Area with the Repository
 
@@ -102,7 +101,8 @@ Git Tutorial – 18 – Pushing to GitHub Repository
 	To publish a file	
 		1. Create a repo on GitHub
 		2. commit the file on local repo
-Set up a remote	3. Git remote add githubrepo https://...
+	Set up a remote	
+		3. Git remote add githubrepo https://...
 		4. git push -u githubrepo master
 
 Git Tutorial – 19 – gitignore and GitHub Desktop
