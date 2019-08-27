@@ -16,6 +16,9 @@ Git Tutorial – 3 – Creating our first Repository
 
 Git Tutorial – 4 – Commit
 
+	$ git add .
+	$ git commmit -m "comments"
+
 Git Tutorial – 5 – Adding Files and the Commit Log
 
 	How to view all commits	
