@@ -114,7 +114,13 @@ Git Tutorial – 19 – gitignore and GitHub Desktop
 
 	Add repo on GitHub
 	Using GitHub desktop, clone the repo
-	Create a gitignore file.
+	Create a gitignore file
+		
+		touch .gitignore
+		vim .gitignore
+		use the escape key to enter and exit text-entry mode
+		Type in ':wq' to exit
+		
 
 Git Tutorial – 20 – Committing Changes to GitHub
 
