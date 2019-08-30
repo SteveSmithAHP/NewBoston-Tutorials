@@ -145,3 +145,10 @@ Git Tutorial – 24 – GitHub Wiki
 	https://www.youtube.com/watch?v=4B0XNThjO0E&list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx&index=24
 
 Git Tutorial – 25 – GitHub Organizations and Teams
+
+
+Other 
+
+	Pull documents from Github to local repositories	git pull
+
+
