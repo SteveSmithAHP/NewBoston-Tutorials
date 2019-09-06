@@ -1,0 +1,28 @@
+# 
+# https://www.youtube.com/watch?v=MBBWVgE0ewk&list=PL6gx4Cwl9DGDV6SnbINlVUd0o2xT4JbMu
+
+# Windows Command Line Tutorial - 1 - Introduction to the Command Prompt
+
+# Why use command line interface
+
+#   * Faster
+#   * 
+
+# Change directory - cd
+# go back - ..
+# go back two levels - ../..
+#
+# Windows Command Line Tutorial - 2 - Listing Files and Directories
+#
+# View contents of a directory: dir
+#
+# view contents of a directory you are not in: dir Desktop\Slingshot
+#
+# view contents including hidden files: dir /a
+#
+# Windows Command Line Tutorial - 3 - Opening Files and History
+#
+# clear the screen: cls
+# 
+# List only certain filetype: dir *.png
+#
